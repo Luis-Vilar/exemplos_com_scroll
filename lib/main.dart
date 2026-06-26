@@ -1,9 +1,6 @@
-import 'package:exemplos_com_scroll/exemplos_de_scroll/home_page_infinite_scroll.dart';
+import 'package:exemplos_com_scroll/app/view/home_page_exercicio.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
-  MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: HomePageInfiniteScroll(),
-  ),
+  MaterialApp(debugShowCheckedModeBanner: false, home: HomePageExercicio()),
 );
